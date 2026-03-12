@@ -7,5 +7,4 @@ var reverseString = function(s) {
         s.unshift(s[i]);
         s.splice(i+1,1);
     }
-    return s;
 };
